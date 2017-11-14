@@ -1,0 +1,18 @@
+{
+  "base_coin": "BTC",
+  "market_coin": "XMR",
+  "market_qty": 0.05,
+  "api_version": "v1.1",
+  "base_url": "https://bittrex.com/api",
+  "api_key": "SOME_API_KEY",
+  "api_secret": "SOME_SECRET",
+  "last_sell": 0.01879000,
+  "target_sell": 0.02,
+  "endpoints": {
+    "balance": "/account/getbalance",
+    "ticker": "/public/getticker"
+    "orderbook": "/public/getorderbook",
+    "sell": "/market/selllimit",
+    "buy": "/market/buylimit"
+  }
+}
